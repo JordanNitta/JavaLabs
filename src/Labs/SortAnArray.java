@@ -39,9 +39,9 @@ public class SortAnArray {
                 if (arr[j] < arr[j + 1]) {
                     // If the current element is smaller than the next element, swap them
                     int temp = arr[j];
-                    System.out.println(temp + "hiiiiiiii");
+                    System.out.println(temp + "hiii");
                     arr[j] = arr[j + 1];
-                    System.out.println(arr[j] + "Bitchhhhhhh");
+                    System.out.println(arr[j] + "yooo");
                     arr[j + 1] = temp;
                 }
             }
