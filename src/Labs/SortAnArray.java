@@ -30,7 +30,7 @@ public class SortAnArray {
             }
         }
     }
-    
+
     public static int[] sortArray(int[] arr, int arrSize){
         // Outer loop iterates through each element of the array
         for(int i = 0; i < arrSize - 1; i++){
@@ -39,7 +39,9 @@ public class SortAnArray {
                 if (arr[j] < arr[j + 1]) {
                     // If the current element is smaller than the next element, swap them
                     int temp = arr[j];
+                    System.out.println(temp + "hiiiiiiii");
                     arr[j] = arr[j + 1];
+                    System.out.println(arr[j] + "Bitchhhhhhh");
                     arr[j + 1] = temp;
                 }
             }
